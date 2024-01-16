@@ -1,0 +1,76 @@
+body {
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+#container {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#rotation {
+  display: flex;
+  justify-content: center;
+  animation: rotate 1s infinite ease-in-out;
+}
+
+#transformation {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  border: 5px solid white;
+  border-radius: 50%;
+  background-color: white;
+  width: 5px;
+  height: 5px;
+  margin: 15px;
+}
+
+.stick {
+  width: 15px;
+  height: 70px;
+  background-color: white;
+  margin: 5px;
+  animation: transform 0.5s infinite ease-in-out
+    alternate;
+}
+.stick:nth-child(1) {
+  animation-delay: 0ms;
+}
+.stick:nth-child(2) {
+  animation-delay: 100ms;
+}
+.stick:nth-child(3) {
+  animation-delay: 200ms;
+}
+.stick:nth-child(4) {
+  animation-delay: 300ms;
+}
+.stick:nth-child(5) {
+  animation-delay: 500ms;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes transform {
+  from {
+    transform: scaleY(2);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
