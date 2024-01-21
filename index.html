@@ -4,21 +4,18 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+      content="width=device-width, initial-scale=1.0" />
     <script
       src="https://kit.fontawesome.com/e63e3007e5.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       type="text/css"
-      href="css/styles.css"
-    />
+      href="css/styles.css" />
     <title>Welcome to KoKoa Talk</title>
   </head>
   <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
         <i class="fas fa-wifi"></i>
@@ -28,9 +25,7 @@
       </div>
       <div class="status-bar__column">
         <span>110%</span>
-        <i
-          class="fa-solid fa-battery-full fa-lg"
-        ></i>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
@@ -39,24 +34,25 @@
         Welcome to kakaoTalk
       </h1>
       <p class="welcome-header__title">
-        If you have a Kakao Account, log in with
-        your email or phone number.
+        If you have a Kakao Account,<br />
+        log in with your email or phone number.
       </p>
     </header>
 
-    <form id="login-form">
+    <form
+      action="friends.html"
+      method="get"
+      id="login-form">
       <input
+        name="username"
         type="text"
-        placeholder="Email or phone number"
-      />
+        placeholder="Email or phone number" />
       <input
+        name="password"
         type="password"
-        placeholder="Password"
-      />
+        placeholder="Password" />
       <input type="submit" value="Log In" />
-      <a href="#"
-        >Find Kakao Account or Password</a
-      >
+      <a href="#">Find Kakao Account or Password</a>
     </form>
   </body>
 </html>
