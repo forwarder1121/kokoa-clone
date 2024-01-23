@@ -1,7 +1,7 @@
 # NomadCoders - Kokoa-clone
 
 ## this course is making Kokoa-clone by using html, css
-## result : [Kokoa clone](https://forwarder1121.github.io/kokoa-clone/)
+## Link: [Kokoa clone](https://forwarder1121.github.io/kokoa-clone/)
 
 
 you should enter this site only with **phone or phone-size window**
