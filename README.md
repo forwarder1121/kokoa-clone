@@ -10,7 +10,7 @@ you should enter this site only with **phone or phone-size window**
    
 ---
 
-### exampe image
+### example image
 
 ![image](https://github.com/forwarder1121/kokoa-clone/assets/66872094/928e45c1-bf73-4196-a5db-90b272b572d8)
 
